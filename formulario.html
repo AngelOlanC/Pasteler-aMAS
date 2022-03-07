@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido en proceso</title>
+    <link rel = "icon" href = "Imagenes/cupcake.png">
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif;
+            background-color:lightgoldenrodyellow;
+        }
+    </style>
+</head>
+<header>
+    <center>
+        <h1>Llene algunos datos para completar su pedido.</h1>
+    </center>
+</header>
+<body>
+    <center>
+        <form>
+            <label for="nombre"> Su nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Angel Olan"><br><br>
+            <label for="telefono"> Teléfono</label><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="6672647322"><br><br>
+            <label for="suemail"> Correo electrónico</label><br>
+            <input type="email" id="suemail" name="suemail" placeholder="angelOlan@gmail.com"><br><br>
+            
+            <h3>Elija su(s) sabor(es): </h3>
+            <input type="checkbox" id="sabor1" name="fresa">
+            <label for="sabor1"> Fresa</label><br>
+            <input type="checkbox" id="sabor2" name="vainilla">
+            <label for="sabor2"> Vainilla</label><br>
+            <input type="checkbox" id="sabor3" name="chocolate">
+            <label for="sabor3"> Chocolate</label> <br>   
+            <input type="checkbox" id="sabor4" name="tresLeches">
+            <label for="sabor4"> Tres leches</label> <br>
+            <input type="checkbox" id="sabor5" name="platano">
+            <label for="sabor5"> Platano</label> <br>
+            <input type="checkbox" id="sabor6" name="queso">
+            <label for="sabor6"> Queso</label> <br><br>
+            
+            <h3>Elija la decoración para su pastel: </h3>
+            <input type="radio" id="no" name="decoracion" value="no">
+            <label for="no"> No quiero decoración</label><br>
+            <input type="radio" id="decoracion1" name="decoracion" >
+            <label for="decoracion1"> Buttercream</label><br>
+            <input type="radio" id="decoracion2" name="decoracion">
+            <label for="decoracion2"> Chantilly</label> <br>   
+            <input type="radio" id="decoracion3" name="decoracion">
+            <label for="decoracion3"> Ganache</label> <br>
+            <input type="radio" id="decoracion4" name="decoracion">
+            <label for="decoracion4"> Merengue</label> <br>
+            <input type="radio" id="decoracion5" name="decoracion">
+            <label for="decoracion5"> Fondant</label> <br><br>
+            
+            <h3>Bebida: </h3>
+            <input type="radio" id="no" name="bebida">
+            <label for="no"> No quiero bebida</label><br>
+            <input type="radio" id="coca" name="bebida">
+            <label for="coca"> Cocacola 500 ml</label><br>
+            <input type="radio" id="ultra" name="bebida">
+            <label for="ultra"> Cerveza ultra 600 ml</label> <br>   
+            <input type="radio" id="jaztea" name="bebida">
+            <label for="jaztea"> Jaztea 500 ml</label> <br>
+    
+    
+            <br>
+            <br>
+            <input type="submit" id="subir">
+        </form>  
+    </center>
+    
+</body>
+</html>
